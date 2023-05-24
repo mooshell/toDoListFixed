@@ -11,6 +11,8 @@
 		377296CD2A1DB6A200C97D01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377296CC2A1DB6A200C97D01 /* ContentView.swift */; };
 		377296CF2A1DB6A300C97D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377296CE2A1DB6A300C97D01 /* Assets.xcassets */; };
 		377296D32A1DB6A300C97D01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377296D22A1DB6A300C97D01 /* Preview Assets.xcassets */; };
+		377296DA2A1DB70B00C97D01 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377296D92A1DB70B00C97D01 /* ToDoItem.swift */; };
+		377296DC2A1DB89D00C97D01 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377296DB2A1DB89D00C97D01 /* NewToDoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		377296CE2A1DB6A300C97D01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		377296D02A1DB6A300C97D01 /* toDoListFixed.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = toDoListFixed.entitlements; sourceTree = "<group>"; };
 		377296D22A1DB6A300C97D01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		377296D92A1DB70B00C97D01 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		377296DB2A1DB89D00C97D01 /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +40,7 @@
 		377296BE2A1DB6A200C97D01 = {
 			isa = PBXGroup;
 			children = (
+				377296D92A1DB70B00C97D01 /* ToDoItem.swift */,
 				377296C92A1DB6A200C97D01 /* toDoListFixed */,
 				377296C82A1DB6A200C97D01 /* Products */,
 			);
@@ -54,6 +59,7 @@
 			children = (
 				377296CA2A1DB6A200C97D01 /* toDoListFixedApp.swift */,
 				377296CC2A1DB6A200C97D01 /* ContentView.swift */,
+				377296DB2A1DB89D00C97D01 /* NewToDoView.swift */,
 				377296CE2A1DB6A300C97D01 /* Assets.xcassets */,
 				377296D02A1DB6A300C97D01 /* toDoListFixed.entitlements */,
 				377296D12A1DB6A300C97D01 /* Preview Content */,
@@ -141,6 +147,8 @@
 			files = (
 				377296CD2A1DB6A200C97D01 /* ContentView.swift in Sources */,
 				377296CB2A1DB6A200C97D01 /* toDoListFixedApp.swift in Sources */,
+				377296DA2A1DB70B00C97D01 /* ToDoItem.swift in Sources */,
+				377296DC2A1DB89D00C97D01 /* NewToDoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
