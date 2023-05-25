@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct NewToDoView: View {
+    @Environment(\.managedObjectContext) var context
     @State var title: String
     @State var isImportant: Bool
     @Binding var toDoItems: [ToDoItem]
@@ -36,9 +37,16 @@ struct NewToDoView: View {
         }
     }
     private func addTask(title: String, isImportant: Bool = false) {
-            
-            let task = ToDoItem(title: title, isImportant: isImportant)
-            toDoItems.append(task)
+        let task = ToDo(context: context)
+        task.id = UUID()
+        task.title = title
+        task.isImportant = isImportant
+                
+        do {
+                    try context.save()
+        } catch {
+                    print(error)
+        }
         }
 }
 
